@@ -1,0 +1,26 @@
+.render-props {
+  height: 100vh;
+  background: $color-primary;
+  position: relative;
+  .counter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    &__input {
+      margin: 1rem auto;
+      width: 100%;
+      height: 4rem;
+      text-align: center;
+      background: darken(white, 5);
+      border: none;
+      border-radius: 1rem;
+    }
+    &__buttons {
+      text-align: center;
+      .btn:first-child {
+        margin-right: 1rem;
+      }
+    }
+  }
+}

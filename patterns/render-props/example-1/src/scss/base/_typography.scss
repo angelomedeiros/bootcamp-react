@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500");
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.heading--h3 {
+  color: $color-secundary;
+  font-size: 3rem;
+  font-weight: 500
+}
+
+.counter {
+  &__input {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+}
+
+.btn {
+  font-weight: 500;
+}
